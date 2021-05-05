@@ -5,3 +5,4 @@ Easy minimal hexdump with all languages.
 ## Languages
 
 - [C](C/)
+- [Java](Java/)
