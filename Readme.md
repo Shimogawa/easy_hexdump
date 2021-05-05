@@ -6,3 +6,4 @@ Easy minimal hexdump with all languages.
 
 - [C](C/)
 - [Java](Java/)
+- [Python](Python/)
