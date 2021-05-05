@@ -9,7 +9,7 @@ int main() {
     while ((num_read = read(STDIN_FILENO, buf, cols)) > 0) {
         int i;
         for (i = 0; i < num_read; i++) {
-            printf("%02X ", (u_int8_t)buf[i]);
+            printf("%02X ", buf[i]);
         }
         printf("%*c", (cols - num_read) * 3 + 2, ' ');
         for (i = 0; i < num_read; i++) {
@@ -19,7 +19,6 @@ int main() {
                 printf("%c", (char)buf[i]);
             }
         }
-        // printf("%*c", (cols - num_read) * 3 + 2, ' ');
         printf("\n");
     }
 }

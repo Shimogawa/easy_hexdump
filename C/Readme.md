@@ -11,11 +11,11 @@ gcc hexdump.c -o hexdump
 #### *nix
 
 ```bash
-./hexdump
+head -c500 ./hexdump | ./hexdump
 ```
 
 #### Windows (Cygwin/Mingw)
 
 ```
-hexdump.exe
+head -c500 hexdump.exe | hexdump.exe
 ```
