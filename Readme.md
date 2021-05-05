@@ -4,4 +4,4 @@ Easy minimal hexdump with all languages.
 
 ## Languages
 
-- [C](C/Readme.md)
+- [C](C/)
